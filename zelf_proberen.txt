@@ -1,0 +1,5 @@
+als je het zelf wilt proberen kan je via deze link naar de opdracht gaan.
+
+https://github.com/davinci-ao/robotarm-js-2018
+
+bij de wiki staan de codes die je kan gebruiken voor de opdrachten. de for, if en functie codes staan er niet, maar kan je ook gebruiken.
