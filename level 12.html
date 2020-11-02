@@ -11,14 +11,14 @@
             // Het level inladen
             robotArm.loadLevel("exercise 12");
             // Jou instructies volgen hier
-            var plaats = 1;
-            for (var b=1; b<=12; b++) {
+            var plaats = 0;
+            for (var b=1; b<=10; b++) {
                 robotArm.moveRight();
-                if (plaats == 1) {
+                if (plaats == 0) {
                     robotArm.moveLeft();
                 }
                 plaats ++;
-                var eind = 11 - plaats;
+                var eind = 10 - plaats;
                 robotArm.grab();
                 color = robotArm.scan();
                 if (color == "red") {

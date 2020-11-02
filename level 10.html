@@ -13,12 +13,12 @@
             // Jou instructies volgen hier
             function move(aantal, stappen) {
                  for(var a=1; a<=aantal; a++){
-                     robotArm.grab();
-                     for(var b=1; b<=stappen; b++){
+                    robotArm.grab();
+                    for(var b=1; b<=stappen; b++){
                         robotArm.moveRight();                
-                     }                    
+                    }                    
                      robotArm.drop();
-                     for(var b=1; b<=stappen; b++){
+                    for(var b=1; b<=stappen; b++){
                         robotArm.moveLeft();                
                     }   
                 }
